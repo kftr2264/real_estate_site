@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'argh';
+    src: url('fonts/argh-webfont.woff2') format('woff2'),
+         url('fonts/argh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre';
+    src: url('fonts/libre-regular-webfont.woff2') format('woff2'),
+         url('fonts/libre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General setup */
+* {
+  box-sizing: border-box;
+}
+
+.html {
+  font-family: libre;
+  font-size: 10px;
+}
+
+.body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+.h1 {
+font-size: 4em;
+text-align: center;
+font-family: argh;
+letter-spacing: 3px;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: argh;
+  letter-spacing: 3px;
+}
+
+/* Blocks */
+.mainHeader {
+  padding: 20px;
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+.houseTypes {
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+
+.houseTypes__list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.housePics {
+  padding: 20px;
+  float: left;
+  width: 50%;
+}
+
+.housePics__list {
+  font-size: 2.2em;
+  line-height: 1.5; /* li's inherit this */
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.housePics__callToAction {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.footer {
+  padding: 20px;
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  clear: both;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link__text {
+  color: #a66;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.link__text--big {
+  text-align: center;
+  font-size: 30px;
+}
+
+.nav {
+  padding: 20px;
+  float: left;
+  width: 20%;
+}
+
+.nav__el {
+  list-style-type: none;
+  margin-bottom: 1.5em;
+}
+
+.nav__list {
+  list-style-type: circle;
+}
+
+.image {
+    display: block;
+    width: 99%;
+    height: auto;
+}
+
+.caption {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.btn {
+  outline: none;
+  height: 100%;
+  display: block;
+}
+
+.btn__text {
+  font-size: 22px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  border: 2px solid #a66;
+  text-decoration: none;
+}
+
+.btn:visited {
+ color: #a66;
+}
+
+.btn:hover {
+  background: #a66;
+}
+
+.btn__text:hover {
+  color: white;
+}
+
+.btn--pinkbg {
+  background-color: #a66;
+}
+
+.btn__text--black {
+  color: black;
+}
+
+.btn__text--black:hover {
+  color: black;
+}
